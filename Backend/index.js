@@ -13,7 +13,7 @@ app.use(express.json());
 
 const allowedOrigins = [
     'http://localhost:5173', // Local frontend
-    'https://book-store-ecdjp8ql4-sumit-kumais-projects.vercel.app' // Production frontend (Vercel)
+    'https://book-store-seven-tau-70.vercel.app/' // Production frontend (Vercel)
   ];
   
   app.use(cors({
