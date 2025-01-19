@@ -10,7 +10,21 @@ const app = express();
 dotenv.config();
 
 app.use(express.json());
-app.use(cors());
+
+const allowedOrigins = [
+    'http://localhost:5173', // Local frontend
+    'https://book-store-ecdjp8ql4-sumit-kumais-projects.vercel.app' // Production frontend (Vercel)
+  ];
+  
+  app.use(cors({
+    origin: function (origin, callback) {
+      if (allowedOrigins.indexOf(origin) !== -1 || !origin) {
+        callback(null, true); // Allow request from allowed origins or no origin (e.g., Postman)
+      } else {
+        callback(new Error('Not allowed by CORS'));
+      }
+    }
+  }));
 
 const PORT = process.env.PORT || 4000;
 const MONGO_URI = process.env.MONGO_URI;
