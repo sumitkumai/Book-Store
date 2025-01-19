@@ -4,7 +4,7 @@ import axios from 'axios'
 import {toast}  from 'react-hot-toast'
 import { useAuth } from '../context/AuthProvider';
 
-function Signup() {
+function SignUp() {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
@@ -88,4 +88,4 @@ function Signup() {
   );
 }
 
-export default Signup;
+export default SignUp;

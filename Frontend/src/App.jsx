@@ -5,7 +5,7 @@ import Home from './pages/Home';
 import Course from './pages/Course';
 import About from './pages/About';
 import Login from './pages/Login';
-import Signup from './pages/SignUp';
+import SignUp from './pages/SignUp';
 import { Toaster } from "react-hot-toast";
 
 function Layout() {
@@ -22,7 +22,7 @@ function Layout() {
         <Route path="/course" element={<Course />} />
         <Route path="/about" element={<About />} />
         <Route path="/login" element={<Login />} />
-        <Route path="/signup" element={<Signup />} />
+        <Route path="/signup" element={<SignUp />} />
       </Routes>
       {showNavbarAndFooter && <Footer />}
     </>
