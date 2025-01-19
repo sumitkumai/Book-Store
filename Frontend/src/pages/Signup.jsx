@@ -19,7 +19,7 @@ function Signup() {
       password:password
     }
 
-    await axios.post('http://localhost:3000/api/signup',userInfo)
+    await axios.post(`${import.meta.env.VITE_BACKEND_URL}/api/signup`,userInfo)
     .then((response) => {
       localStorage.setItem('User',JSON.stringify({id:response.data.newUser._id,email:response.data.newUser.email}))
       setAuthUser({ id: response.data.newUser._id, email: response.data.newUser.email });

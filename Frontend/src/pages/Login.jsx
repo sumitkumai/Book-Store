@@ -18,7 +18,7 @@ function Login() {
       password:password
     }
 
-    await axios.post('http://localhost:3000/api/login',userInfo)
+    await axios.post(`${import.meta.env.VITE_BACKEND_URL}/api/login`,userInfo)
     .then((response) => {
       localStorage.setItem('User', JSON.stringify({id:response.data.user._id,email:response.data.user.email}));
       setAuthUser({ id: response.data.user._id, email: response.data.user.email });
