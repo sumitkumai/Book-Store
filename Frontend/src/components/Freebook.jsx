@@ -11,7 +11,7 @@ const Freebook = () => {
   useEffect(() => {
     const getBook = async()=>{
       try {
-        const res = await axios.get('http://localhost:3000/api/book');
+        const res = await axios.get(`${import.meta.env.VITE_BACKEND_URL}/api/book`);
         setBook(res.data);
       } catch (error) {
         console.log(error)
