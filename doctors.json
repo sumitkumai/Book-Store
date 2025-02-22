@@ -1,0 +1,123 @@
+[
+    {
+      "id": 1,
+      "name": "Dr. John Smith",
+      "description": "Expert in General Medicine.",
+      "price": 0,
+      "category": "free",
+      "image": "https://img.freepik.com/free-photo/pleased-young-female-doctor-wearing-medical-robe-stethoscope-around-neck-standing-with-closed-posture_409827-254.jpg?ga=GA1.1.101557958.1729918671&semt=ais_hybrid"
+    },
+    {
+      "id": 2,
+      "name": "Dr. Emily Davis",
+      "description": "Pediatric Specialist.",
+      "price": 0,
+      "category": "free",
+      "image": "https://img.freepik.com/free-photo/pleased-young-female-doctor-wearing-medical-robe-stethoscope-around-neck-standing-with-closed-posture_409827-254.jpg?ga=GA1.1.101557958.1729918671&semt=ais_hybrid"
+    },
+    {
+      "id": 3,
+      "name": "Dr. Michael Brown",
+      "description": "Cardiology Expert.",
+      "price": 0,
+      "category": "free",
+      "image": "https://img.freepik.com/free-photo/pleased-young-female-doctor-wearing-medical-robe-stethoscope-around-neck-standing-with-closed-posture_409827-254.jpg?ga=GA1.1.101557958.1729918671&semt=ais_hybrid"
+    },
+    {
+      "id": 4,
+      "name": "Dr. Sarah Wilson",
+      "description": "Dermatology Specialist.",
+      "price": 0,
+      "category": "free",
+      "image": "https://img.freepik.com/free-photo/pleased-young-female-doctor-wearing-medical-robe-stethoscope-around-neck-standing-with-closed-posture_409827-254.jpg?ga=GA1.1.101557958.1729918671&semt=ais_hybrid"
+    },
+    {
+      "id": 5,
+      "name": "Dr. William Martinez",
+      "description": "Orthopedic Surgeon.",
+      "price": 0,
+      "category": "free",
+      "image": "https://img.freepik.com/free-photo/pleased-young-female-doctor-wearing-medical-robe-stethoscope-around-neck-standing-with-closed-posture_409827-254.jpg?ga=GA1.1.101557958.1729918671&semt=ais_hybrid"
+    },
+    {
+      "id": 6,
+      "name": "Dr. Laura Hernandez",
+      "description": "Neurology Specialist.",
+      "price": 0,
+      "category": "free",
+      "image": "https://img.freepik.com/free-photo/pleased-young-female-doctor-wearing-medical-robe-stethoscope-around-neck-standing-with-closed-posture_409827-254.jpg?ga=GA1.1.101557958.1729918671&semt=ais_hybrid"
+    },
+    {
+      "id": 7,
+      "name": "Dr. James Johnson",
+      "description": "Oncology Expert.",
+      "price": 0,
+      "category": "free",
+      "image": "https://img.freepik.com/free-photo/pleased-young-female-doctor-wearing-medical-robe-stethoscope-around-neck-standing-with-closed-posture_409827-254.jpg?ga=GA1.1.101557958.1729918671&semt=ais_hybrid"
+    },
+    {
+      "id": 8,
+      "name": "Dr. Karen Lee",
+      "description": "Psychiatry Specialist.",
+      "price": 0,
+      "category": "free",
+      "image": "https://img.freepik.com/free-photo/pleased-young-female-doctor-wearing-medical-robe-stethoscope-around-neck-standing-with-closed-posture_409827-254.jpg?ga=GA1.1.101557958.1729918671&semt=ais_hybrid"
+    },
+    {
+      "id": 9,
+      "name": "Dr. Thomas White",
+      "description": "Gastroenterology Expert.",
+      "price": 0,
+      "category": "free",
+      "image": "https://img.freepik.com/free-photo/pleased-young-female-doctor-wearing-medical-robe-stethoscope-around-neck-standing-with-closed-posture_409827-254.jpg?ga=GA1.1.101557958.1729918671&semt=ais_hybrid"
+    },
+    {
+      "id": 10,
+      "name": "Dr. Mary Green",
+      "description": "Endocrinology Specialist.",
+      "price": 0,
+      "category": "free",
+      "image": "https://img.freepik.com/free-photo/pleased-young-female-doctor-wearing-medical-robe-stethoscope-around-neck-standing-with-closed-posture_409827-254.jpg?ga=GA1.1.101557958.1729918671&semt=ais_hybrid"
+    },
+    {
+      "id": 16,
+      "name": "Dr. Angela Foster",
+      "description": "Geriatric Medicine Specialist.",
+      "price": 200,
+      "category": "paid",
+      "image": "https://img.freepik.com/free-photo/pleased-young-female-doctor-wearing-medical-robe-stethoscope-around-neck-standing-with-closed-posture_409827-254.jpg?ga=GA1.1.101557958.1729918671&semt=ais_hybrid"
+    },
+    {
+      "id": 17,
+      "name": "Dr. Steven Adams",
+      "description": "Podiatry Expert.",
+      "price": 190,
+      "category": "paid",
+      "image": "https://img.freepik.com/free-photo/pleased-young-female-doctor-wearing-medical-robe-stethoscope-around-neck-standing-with-closed-posture_409827-254.jpg?ga=GA1.1.101557958.1729918671&semt=ais_hybrid"
+    },
+    {
+      "id": 18,
+      "name": "Dr. Rachel Moore",
+      "description": "Hematology Specialist.",
+      "price": 210,
+      "category": "paid",
+      "image": "https://img.freepik.com/free-photo/pleased-young-female-doctor-wearing-medical-robe-stethoscope-around-neck-standing-with-closed-posture_409827-254.jpg?ga=GA1.1.101557958.1729918671&semt=ais_hybrid"
+    },
+    {
+      "id": 19,
+      "name": "Dr. Daniel Young",
+      "description": "Nephrology Expert.",
+      "price": 230,
+      "category": "paid",
+      "image": "https://img.freepik.com/free-photo/pleased-young-female-doctor-wearing-medical-robe-stethoscope-around-neck-standing-with-closed-posture_409827-254.jpg?ga=GA1.1.101557958.1729918671&semt=ais_hybrid"
+    },
+    {
+      "id": 20,
+      "name": "Dr. Janet Hughes",
+      "description": "Plastic Surgery Specialist.",
+      "price": 350,
+      "category": "paid",
+      "image": "https://img.freepik.com/free-photo/pleased-young-female-doctor-wearing-medical-robe-stethoscope-around-neck-standing-with-closed-posture_409827-254.jpg?ga=GA1.1.101557958.1729918671&semt=ais_hybrid"
+    }
+  ]
+  

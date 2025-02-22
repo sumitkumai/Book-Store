@@ -46,12 +46,9 @@ const Freebook = () => {
   return (
     <div id="freebook" className="md:pt-20 pt-14">
       <div className="md:px-20 px-5">
-        <h1 className="font-semibold text-lg">Free Offered Books</h1>
+        <h1 className="font-semibold text-lg">Free Services</h1>
         <p className="mb-5">
-          Unlock endless learning opportunities with our free books, explore a
-          vast collection across various genres and subjects, dive into new
-          worlds of knowledge, discover insightful ideas, enhance your skills,
-          and fuel your passion for learning—all without spending a dime!
+        Get access to expert medical care without any cost. Our dedicated doctors are here to support your well-being, offering consultations, guidance, and treatment—absolutely free. <span className="text-pink-500">Your health, our priority!</span>
         </p>
       </div>
 

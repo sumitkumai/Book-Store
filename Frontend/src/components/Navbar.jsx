@@ -39,7 +39,7 @@ const Navbar = () => {
     >
       {/* Logo Section */}
       <div>
-        <h1 className="font-black text-lg sm:text-xl">BookShelf</h1>
+        <h1 className="font-black sm:text-xl">MEDAI</h1>
       </div>
 
       {/* Desktop Navigation */}
@@ -49,7 +49,7 @@ const Navbar = () => {
             Home
           </Link>
           <Link to="/course" className="hover:font-semibold">
-            Books
+            Doctors
           </Link>
           <Link to="/about" className="hover:font-semibold">
             About us

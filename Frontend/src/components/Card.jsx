@@ -18,9 +18,9 @@ const Card = ({ item }) => {
         <p className='text-gray-700 mb-4 text-left'>{item.description}</p>
 
         <div className='flex justify-between items-center'>
-          <p className='text-lg font-semibold text-green-600'>₹ {item.price}</p>
+          <p className='text-lg font-semibold text-green-600'>$ {item.price}</p>
           <button className='bg-pink-500 text-white py-1 px-2 rounded-md hover:bg-pink-600'>
-            Buy Now
+            Book Slot
           </button>
         </div>
 

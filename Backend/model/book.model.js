@@ -8,6 +8,6 @@ const bookShema = mongoose.Schema({
     image:String
 })
 
-const Book = mongoose.model("Books",bookShema);
+const Book = mongoose.model("doctors",bookShema);
 
 export default Book
